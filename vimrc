@@ -22,9 +22,9 @@ endif
 " APPEARANCE
 " ___________________________________________________
 "
-" Use the deathstar color scheme
-colorscheme deathstar
-
+" Use the papercolor color scheme
+colorscheme PaperColor 
+set background=dark
 
 " GENERAL SETTINGS
 " ___________________________________________________
@@ -33,6 +33,7 @@ colorscheme deathstar
 syntax on
 " Show the current path in the title bar
 set title
+set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 " Show line numbers
 set number
 " Show the cursor position
@@ -50,7 +51,13 @@ set noshowmode
 set splitbelow
 " Default 'vsplit' adds buffer to the right
 set splitright
+" Mark column 80
+set colorcolumn=80
+" default to not wrap text
+set nowrap
 
+" status line
+let g:lightline={'colorscheme':'seoul256'}
 
 " COMMANDS
 " ___________________________________________________

@@ -13,8 +13,8 @@ let g:tex_flavor = "latex"
 " vim-airline OPTIONS
 " ___________________________________________________
 "
-let g:airline_theme='minimalist'
-let g:airline_powerline_fonts=1
+" let g:airline_theme='minimalist'
+" let g:airline_powerline_fonts=1
 
 
 " YouCompleteMe OPTIONS

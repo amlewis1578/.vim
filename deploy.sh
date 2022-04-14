@@ -14,3 +14,8 @@ fi
 vim +PluginInstall +qall
 echo "Installed Vundle (and specified plugins)."
 
+# Python install you complete me
+echo "Installing YouCompleteMe... this takes a while"
+cd ~/.vim/bundle/YouCompleteMe
+python install.py
+cd ~/.vim
