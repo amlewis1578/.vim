@@ -34,8 +34,10 @@ let s:grey39        = ['#626262',  241] " Comment color
 let s:grey54        = ['#8a8a8a',  245] " Keyword color
 let s:grey74        = ['#BCBCBC',  250]
 
-let s:default_fg = s:lime
-let s:default_bg = s:grey3
+" let s:default_fg = s:lime
+"let s:default_bg = s:grey3
+let s:default_bg = s:grey11
+let s:default_fg = s:white
 
 let s:italic    = 'italic'
 let s:bold      = 'bold'
@@ -128,12 +130,15 @@ call s:hi('SignColumn')
 " --- Programming languages ----------------------------------------------------
 "
 
-call s:hi('Statement', s:grey74, s:default_bg)
-call s:hi('PreProc', s:grey74, s:default_bg)
+"call s:hi('Statement', s:grey74, s:default_bg)
+call s:hi('Statement', s:green3, s:default_bg)
+" call s:hi('PreProc', s:grey74, s:default_bg)
+call s:hi('PreProc', s:green3, s:default_bg)
 call s:hi('String', s:lime)
-call s:hi('Comment', s:grey39, s:default_bg)
+call s:hi('Comment', s:grey54, s:default_bg)
 call s:hi('Constant')
-call s:hi('Type', s:grey54, s:default_bg, s:bold)
+" call s:hi('Type', s:grey54, s:default_bg, s:bold)
+call s:hi('Type', s:sandybrown, s:default_bg, s:bold)
 call s:hi('Function', s:white)
 call s:hi('Identifier')
 call s:hi('Special', s:grey74, s:default_bg)

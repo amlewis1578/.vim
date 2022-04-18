@@ -27,3 +27,7 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 " ___________________________________________________
 "
 let g:SimpylFold_docstring_preview = 1
+
+" JSON folding
+set foldmethod=indent
+set foldenable
