@@ -23,7 +23,7 @@ endif
 " ___________________________________________________
 "
 " Use the papercolor color scheme
-colorscheme PaperColor 
+colorscheme jellybeans
 set background=dark
 
 " GENERAL SETTINGS
@@ -55,12 +55,10 @@ set splitright
 set colorcolumn=80
 " default to not wrap text
 set nowrap
+" always show statusline
+" set statusline=2
 
-" status line
-" let g:lightline={'colorscheme':'seoul256'}
 
-" COMMANDS
-" ___________________________________________________
 "
 if filereadable(expand("~/.vim/commands.vim"))
   source ~/.vim/commands.vim
