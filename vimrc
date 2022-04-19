@@ -22,7 +22,7 @@ endif
 " APPEARANCE
 " ___________________________________________________
 "
-" Use the papercolor color scheme
+" color scheme
 colorscheme jellybeans
 set background=dark
 
